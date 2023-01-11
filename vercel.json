@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "proyecto-final-backend-aruguete",
+  "name": "proyecto-final-backend-hanshuannca",
   "builds": [
     { "src": "index.js", "use": "@vercel/node" }
   ],

@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "377cf0b8-6a4e-4125-ac67-51f00448cc8e",
-		"name": "Vercel Api Proyecto Backend",
+		"name": "Pruebas Api Proyecto Backend",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "25206114"
 	},
@@ -25,9 +25,9 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{vercel}}/api/productos",
+							"raw": "{{link}}/api/productos",
 							"host": [
-								"{{vercel}}"
+								"{{link}}"
 							],
 							"path": [
 								"api",
@@ -53,9 +53,9 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{vercel}}/api/productos/:idProducto",
+							"raw": "{{link}}/api/productos/:idProducto",
 							"host": [
-								"{{vercel}}"
+								"{{link}}"
 							],
 							"path": [
 								"api",
@@ -88,9 +88,9 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{vercel}}/api/productos/categorias/Ropa",
+							"raw": "{{link}}/api/productos/categorias/Ropa",
 							"host": [
-								"{{vercel}}"
+								"{{link}}"
 							],
 							"path": [
 								"api",
@@ -127,9 +127,9 @@
 							}
 						},
 						"url": {
-							"raw": "{{vercel}}/api/productos/",
+							"raw": "{{link}}/api/productos/",
 							"host": [
-								"{{vercel}}"
+								"{{link}}"
 							],
 							"path": [
 								"api",
@@ -165,9 +165,9 @@
 							}
 						},
 						"url": {
-							"raw": "{{vercel}}/api/productos/:idProducto",
+							"raw": "{{link}}/api/productos/:idProducto",
 							"host": [
-								"{{vercel}}"
+								"{{link}}"
 							],
 							"path": [
 								"api",
@@ -200,9 +200,9 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "{{vercel}}/api/productos",
+							"raw": "{{link}}/api/productos",
 							"host": [
-								"{{vercel}}"
+								"{{link}}"
 							],
 							"path": [
 								"api",
@@ -228,9 +228,9 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "{{vercel}}/api/productos/:idProducto",
+							"raw": "{{link}}/api/productos/:idProducto",
 							"host": [
-								"{{vercel}}"
+								"{{link}}"
 							],
 							"path": [
 								"api",
@@ -268,9 +268,9 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{vercel}}/api/carritos",
+							"raw": "{{link}}/api/carritos",
 							"host": [
-								"{{vercel}}"
+								"{{link}}"
 							],
 							"path": [
 								"api",
@@ -296,9 +296,9 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{vercel}}/api/carritos/productos",
+							"raw": "{{link}}/api/carritos/productos",
 							"host": [
-								"{{vercel}}"
+								"{{link}}"
 							],
 							"path": [
 								"api",
@@ -334,9 +334,9 @@
 							}
 						},
 						"url": {
-							"raw": "{{vercel}}/api/carritos/productos",
+							"raw": "{{link}}/api/carritos/productos",
 							"host": [
-								"{{vercel}}"
+								"{{link}}"
 							],
 							"path": [
 								"api",
@@ -363,9 +363,9 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "{{vercel}}/api/carritos/productos/",
+							"raw": "{{link}}/api/carritos/productos/",
 							"host": [
-								"{{vercel}}"
+								"{{link}}"
 							],
 							"path": [
 								"api",
@@ -393,9 +393,9 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "{{vercel}}/api/carritos/productos/:idItem",
+							"raw": "{{link}}/api/carritos/productos/:idItem",
 							"host": [
-								"{{vercel}}"
+								"{{link}}"
 							],
 							"path": [
 								"api",
@@ -434,9 +434,9 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{vercel}}/api/users/session",
+							"raw": "{{link}}/api/users/session",
 							"host": [
-								"{{vercel}}"
+								"{{link}}"
 							],
 							"path": [
 								"api",
@@ -462,9 +462,9 @@
 							}
 						},
 						"url": {
-							"raw": "{{vercel}}/api/users/signup",
+							"raw": "{{link}}/api/users/signup",
 							"host": [
-								"{{vercel}}"
+								"{{link}}"
 							],
 							"path": [
 								"api",
@@ -490,9 +490,9 @@
 							}
 						},
 						"url": {
-							"raw": "{{vercel}}/api/users/login",
+							"raw": "{{link}}/api/users/login",
 							"host": [
-								"{{vercel}}"
+								"{{link}}"
 							],
 							"path": [
 								"api",
@@ -509,9 +509,9 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "{{vercel}}/api/users/delete/:userId",
+							"raw": "{{link}}/api/users/delete/:userId",
 							"host": [
-								"{{vercel}}"
+								"{{link}}"
 							],
 							"path": [
 								"api",
@@ -550,9 +550,9 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{vercel}}/api/pedidos",
+							"raw": "{{link}}/api/pedidos",
 							"host": [
-								"{{vercel}}"
+								"{{link}}"
 							],
 							"path": [
 								"api",
@@ -578,9 +578,9 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{vercel}}/api/pedidos/:idPedido",
+							"raw": "{{link}}/api/pedidos/:idPedido",
 							"host": [
-								"{{vercel}}"
+								"{{link}}"
 							],
 							"path": [
 								"api",
@@ -613,9 +613,9 @@
 						"method": "POST",
 						"header": [],
 						"url": {
-							"raw": "{{vercel}}/api/pedidos",
+							"raw": "{{link}}/api/pedidos",
 							"host": [
-								"{{vercel}}"
+								"{{link}}"
 							],
 							"path": [
 								"api",
@@ -636,9 +636,9 @@
 						"method": "POST",
 						"header": [],
 						"url": {
-							"raw": "{{vercel}}/fake/productos?cantidad=2",
+							"raw": "{{link}}/fake/productos?cantidad=2",
 							"host": [
-								"{{vercel}}"
+								"{{link}}"
 							],
 							"path": [
 								"fake",
@@ -675,9 +675,9 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{vercel}}/info",
+							"raw": "{{link}}/info",
 							"host": [
-								"{{vercel}}"
+								"{{link}}"
 							],
 							"path": [
 								"info"
