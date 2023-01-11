@@ -24,9 +24,10 @@ class UsersRepository {
     }
     // Devuelve un solo objeto que cumple el filtro (deberia ser un filtro unique key)
     static getOneByFilter(filterKey, filterValue) {
-        const usersDAO = DAOsFactory.getUsersDao()
-        return usersDAO.getOneByFilter(filterKey, filterValue)
-    }    
+       const usersDAO = DAOsFactory.getUsersDao();
+       console.log(usersDAO)
+       return usersDAO.getOneByFilter(filterKey, filterValue)
+    }   
 
     //Guarda un nuevo producto en la DB
     static save(object) {
